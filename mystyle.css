@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <title>Titol de l'article</title>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+       .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        main {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        article {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        aside {
+            width: 200px;
+        }
+
+        div menu="menu" {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+
+            transition: background-color 0.3s ease;
+        }
+
+
+        button:hover {
+            background-color: #2980b9;
+        }
+ </div>
+</body>
+</html>
